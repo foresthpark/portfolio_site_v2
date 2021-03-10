@@ -48,7 +48,7 @@ const contact = () => {
               <hr className="w-full border-1 border-black" />
             </div>
             <div className="font-light text-sm font-sans my-2">
-              forest@forestpark.dev
+              forestpworking@gmail.com
             </div>
           </div>
           <div className="sm:w-1/5 w-4/5 mb-4 flex-col justify-start items-center">
