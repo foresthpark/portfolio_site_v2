@@ -17,7 +17,7 @@ const contact = () => {
         <div className="flex flex-row justify-between">
           <MainHeader currentMenu="contact" />
         </div>
-        <div className="font-sans font-black text-6xl tracking-wide sm:text-20xl text-center">
+        <div className="font-sans font-black text-5xl tracking-wide sm:text-15xl text-center">
           CONTACT
         </div>
         <div className="font-sans font-bold sm:text-4xl text-2xl mx-2 tracking-wide text-center">
@@ -28,7 +28,7 @@ const contact = () => {
           to help you realize your dream. Don't let your dream be dreams. Just
           contact me.
         </div>
-        <div className="w-full h-full my-11 flex sm:flex-row flex-auto justify-around items-center">
+        <div className="w-full h-full my-11 flex sm:flex-row flex-auto justify-around items-center flex-wrap">
           <div className="sm:w-1/5 w-4/5 mb-4 flex-col justify-start items-center">
             <a
               href="http://github.com/foresthpark"
