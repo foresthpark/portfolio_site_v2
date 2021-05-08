@@ -4,4 +4,4 @@ It was built in next.js
 
 You know what to do.
 
-Clone it and run _npm run dev_
+- Clone it and run _npm run dev_
