@@ -99,7 +99,7 @@ const projects = [
 const portfolio = () => {
   return (
     <>
-      <div className="w-full h-full bg-blue-300 flex flex-col justify-content items-center">
+      <div className="w-full h-full bg-blue-300 flex flex-col justify-center items-center">
         <Head>
           <title>林 :: Portfolio</title>
         </Head>

@@ -59,6 +59,7 @@ const about = () => {
               <ul>
                 <li>Javascript</li>
                 <li>React</li>
+                <li>Apollo Graphql</li>
                 <li>NodeJS</li>
                 <li>Express</li>
                 <li>MongoDB</li>
