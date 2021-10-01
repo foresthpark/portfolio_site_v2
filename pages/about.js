@@ -63,6 +63,7 @@ const about = () => {
                 <li>NodeJS</li>
                 <li>Express</li>
                 <li>MongoDB</li>
+                <li>Prisma ORM</li>
                 <li>AWS</li>
                 <li>Flutter</li>
                 <li>Dart</li>

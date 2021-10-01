@@ -10,7 +10,7 @@ const pxSquare = {
 const contact = () => {
   return (
     <>
-      <div className="w-full h-full bg-red-300 flex flex-col justify-center items-center">
+      <div className="w-full h- bg-red-300 flex flex-col justify-center items-center">
         <Head>
           <title>林 :: Contact</title>
         </Head>
