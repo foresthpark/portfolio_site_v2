@@ -7,6 +7,23 @@ import PortfolioItem from "../components/PortfolioItem";
 
 const projects = [
   {
+    name: "Keto Clock",
+    website: "https://www.ketoclock.com",
+    github: null,
+    tech: [
+      "React Native",
+      "MongoDB",
+      "Apollo Server",
+      "Serverless",
+      "Redux Toolkit",
+    ],
+    description: [
+      "Communicating design and development standards to shareholders and developers",
+      "Managing ongoing projects and task delegation for junior developers",
+      "Performing code review to maintain quality code standards",
+    ],
+  },
+  {
     name: "EMCO Energy",
     website: "https://emcoenergy.com",
     github: null,
@@ -98,36 +115,34 @@ const projects = [
 
 const portfolio = () => {
   return (
-    <>
-      <div className="w-full h-full bg-blue-300 flex flex-col justify-center items-center">
-        <Head>
-          <title>林 :: Portfolio</title>
-        </Head>
-        <div className="flex flex-row justify-between">
-          <MainHeader currentMenu="portfolio" />
-        </div>
-        <div className="font-sans font-black text-5xl tracking-wide sm:text-12xl text-center">
-          PORTFOLIO
-        </div>
-        <div className="font-sans font-bold sm:text-4xl text-2xl mx-2 tracking-wide text-center">
-          Wondering what I'm capable of?
-        </div>
-        <div className="sm:my-5 sm:text-base text-sm my-3 mx-2 text-center">
-          A few examples of some projects I worked on in the past.
-        </div>
-        {projects.map((project, index) => {
-          return (
-            <PortfolioItem
-              title={project.name}
-              website={project.website}
-              github={project.github}
-              tech={project.tech}
-              description={project.description}
-            />
-          );
-        })}
+    <div className="w-full h-full bg-blue-300 flex flex-col justify-center items-center">
+      <Head>
+        <title>林 :: Portfolio</title>
+      </Head>
+      <div className="flex flex-row justify-between">
+        <MainHeader currentMenu="portfolio" />
       </div>
-    </>
+      <div className="font-sans font-black text-5xl tracking-wide sm:text-12xl text-center">
+        PORTFOLIO
+      </div>
+      <div className="font-sans font-bold sm:text-4xl text-2xl mx-2 tracking-wide text-center">
+        Wondering what I'm capable of?
+      </div>
+      <div className="sm:my-5 sm:text-base text-sm my-3 mx-2 text-center">
+        A few examples of some projects I worked on in the past.
+      </div>
+      {projects.map((project, index) => {
+        return (
+          <PortfolioItem
+            title={project.name}
+            website={project.website}
+            github={project.github}
+            tech={project.tech}
+            description={project.description}
+          />
+        );
+      })}
+    </div>
   );
 };
 
