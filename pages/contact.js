@@ -30,7 +30,7 @@ const contact = () => {
       <div className="w-full h-full my-11 flex sm:flex-row flex-auto justify-around items-center flex-wrap">
         <div className="sm:w-1/5 w-4/5 mb-4 flex-col justify-start items-center">
           <a
-            href="http://github.com/foresthpark"
+            href="mailto:forestpworking@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,7 +52,7 @@ const contact = () => {
         </div>
         <div className="sm:w-1/5 w-4/5 mb-4 flex-col justify-start items-center">
           <a
-            href="http://github.com/foresthpark"
+            href="http://linkedin.com/in/forestpark"
             target="_blank"
             rel="noopener noreferrer"
           >

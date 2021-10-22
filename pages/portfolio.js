@@ -20,7 +20,7 @@ const projects = [
     description: [
       "Communicating design and development standards to shareholders and developers",
       "Managing ongoing projects and task delegation for junior developers",
-      "Performing code review to maintain quality code standards",
+      "Performing code reviews to maintain quality code standards",
     ],
   },
   {
