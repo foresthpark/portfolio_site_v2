@@ -114,6 +114,7 @@ const projects = [
 // https://github.com/foresthpark/storybooks
 
 const portfolio = () => {
+  console.log("🚀 ~ https://resume.forestp.dev/api/graphql");
   return (
     <div className="w-full h-full bg-blue-300 flex flex-col justify-center items-center">
       <Head>
