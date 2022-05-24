@@ -7,6 +7,16 @@ import PortfolioItem from "../components/PortfolioItem";
 
 const projects = [
   {
+    name: "Ketchup Wars",
+    website: "https://ketchup.forestp.dev",
+    github: "https://github.com/foresthpark/ketchup_wars",
+    tech: ["NextJS", "PlanetScale DB"],
+    description: [
+      "There was an epic argumenet on Pixels and Pints YYC Discord",
+      "So I built a simple survey website to see if people liked ketchup or not",
+    ],
+  },
+  {
     name: "Keto Clock",
     website: "https://www.ketoclock.com",
     github: null,
