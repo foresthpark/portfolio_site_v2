@@ -7,6 +7,13 @@ import PortfolioItem from "../components/PortfolioItem";
 
 const projects = [
   {
+    name: "URL Shortener",
+    website: "https://u.forestp.dev",
+    github: "https://github.com/foresthpark/shortlink_trpc",
+    tech: ["NextJS", "PlanetScale DB", "tRPC"],
+    description: ["A simple URL shortener build with a tRPC backend"],
+  },
+  {
     name: "Ketchup Wars",
     website: "https://ketchup.forestp.dev",
     github: "https://github.com/foresthpark/ketchup_wars",
@@ -141,6 +148,10 @@ const portfolio = () => {
       </div>
       <div className="sm:my-5 sm:text-base text-sm my-3 mx-2 text-center">
         A few examples of some projects I worked on in the past.
+      </div>
+      <div className="sm:my-5 sm:text-base text-sm my-3 mx-2 text-center">
+        Resume: https://resume.forestp.dev - For HR people
+        https://resume.forestp.dev/api/graphql - For developers
       </div>
       {projects.map((project, index) => {
         return (
