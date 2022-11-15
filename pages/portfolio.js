@@ -7,6 +7,13 @@ import PortfolioItem from "../components/PortfolioItem";
 
 const projects = [
   {
+    name: "Terminal Portfolio",
+    website: "https://terminal.forestp.dev",
+    github: "https://github.com/foresthpark/terminal-portfolio",
+    tech: ["Next.js", "Tailwind CSS"],
+    description: ["A terminal-like portfolio website"],
+  },
+  {
     name: "URL Shortener",
     website: "https://u.forestp.dev",
     github: "https://github.com/foresthpark/shortlink_trpc",
