@@ -21,6 +21,15 @@ const projects = [
     description: ["A simple URL shortener build with a tRPC backend"],
   },
   {
+    name: "Music Player Prototype",
+    website: "https://arcadia.forestp.dev",
+    github: null,
+    tech: ["NextJS", "Redux Toolkit", "Tailwind CSS"],
+    description: [
+      "A quick prototype of a music video player web app I built for a startup",
+    ],
+  },
+  {
     name: "Ketchup Wars",
     website: "https://ketchup.forestp.dev",
     github: "https://github.com/foresthpark/ketchup_wars",
