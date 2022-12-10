@@ -7,6 +7,14 @@ import PortfolioItem from "../components/PortfolioItem";
 
 const projects = [
   {
+    name: "Buy Forest a Coffee",
+    website: "https://coffee.forestp.dev",
+    github: "https://github.com/foresthpark/buy-me-some-coffee",
+    tech: ["Next.js", "Tailwind CSS", "Stripe", "Airtable"],
+    description: ["A simple coffee donation website made with Stripe"],
+  },
+
+  {
     name: "Terminal Portfolio",
     website: "https://terminal.forestp.dev",
     github: "https://github.com/foresthpark/terminal-portfolio",
