@@ -7,6 +7,14 @@ import PortfolioItem from "../components/PortfolioItem";
 
 const projects = [
   {
+    name: "Care My Way",
+    website: "https://www.caremyway.ca",
+    tech: ["NextJs", "Tailwind CSS", "PlanetScale"],
+    description: [
+      "A caregivers for aging loved ones. Care my Way offers resources and tools to help you navigate the care journey.",
+    ],
+  },
+  {
     name: "Buy Forest a Coffee",
     website: "https://coffee.forestp.dev",
     github: "https://github.com/foresthpark/buy-me-some-coffee",
@@ -66,7 +74,7 @@ const projects = [
   },
   {
     name: "EMCO Energy",
-    website: "https://emcoenergy.com",
+    website: "https://staging.emcoenergy.com",
     github: null,
     tech: ["NextJS", "MongoDB", "Firebase", "Lambda", "EC2", "DynamoDB"],
     description: [
@@ -180,6 +188,7 @@ const portfolio = () => {
       {projects.map((project, index) => {
         return (
           <PortfolioItem
+            key={index + project.name}
             title={project.name}
             website={project.website}
             github={project.github}
