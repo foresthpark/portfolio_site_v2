@@ -8,9 +8,17 @@ import NewWindowLink from "../components/NewWindowLink/NewWindowLink";
 
 const projects = [
   {
+    name: "SDC",
+    website: "https://www.sdc.fyi",
+    tech: ["NextJs", "Tailwind CSS", "PlanetScale, React Query, tRPC, Jotai"],
+    description: [
+      "Software Developers of Calgary (SDC) is a community website that helps developers learn and build together through mini hackathon events",
+    ],
+  },
+  {
     name: "Care My Way",
     website: "https://www.caremyway.ca",
-    tech: ["NextJs", "Tailwind CSS", "PlanetScale"],
+    tech: ["NextJs", "Tailwind CSS", "PlanetScale, React Query, tRPC"],
     description: [
       "A caregivers for aging loved ones. Care my Way offers resources and tools to help you navigate the care journey.",
     ],
