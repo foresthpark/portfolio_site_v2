@@ -4,6 +4,7 @@ import MainHeader from "../components/MainHeader";
 
 import PortfolioVisitButton from "../components/PortfolioVisitButton";
 import PortfolioItem from "../components/PortfolioItem";
+import NewWindowLink from "../components/NewWindowLink/NewWindowLink";
 
 const projects = [
   {
@@ -181,9 +182,15 @@ const portfolio = () => {
       <div className="sm:my-5 sm:text-base text-sm my-3 mx-2 text-center">
         A few examples of some projects I worked on in the past.
       </div>
-      <div className="sm:my-5 sm:text-base text-sm my-3 mx-2 text-center">
-        Resume: https://resume.forestp.dev - For HR people
-        https://resume.forestp.dev/api/graphql - For developers
+      <div className="sm:my-5 sm:text-base text-sm my-3 mx-2 text-center flex flex-col">
+        <span>Resume: </span>
+        <NewWindowLink href={"https://resume.forestp.dev"}>
+          For HR people
+        </NewWindowLink>
+
+        <NewWindowLink href={"https://resume.forestp.dev/api/graphql"}>
+          For developers
+        </NewWindowLink>
       </div>
       {projects.map((project, index) => {
         return (
