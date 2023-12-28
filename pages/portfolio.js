@@ -9,7 +9,7 @@ import NewWindowLink from "../components/NewWindowLink/NewWindowLink";
 const projects = [
   {
     name: "SDC",
-    website: "https://www.sdc.fyi",
+    website: "https://sdc.fyi",
     tech: ["NextJs", "Tailwind CSS", "PlanetScale, React Query, tRPC, Jotai"],
     description: [
       "Software Developers of Calgary (SDC) is a community website that helps developers learn and build together through mini hackathon events",
